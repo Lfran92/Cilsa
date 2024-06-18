@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    background-color: rgb(16, 20, 20);
+    text-align: center;
+    padding: 2% 0 2% 0;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.formulario {
+    background-color: rgb(16, 20, 20);
+    text-align: center;
+    height: 40%;
+    padding: 10%;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    
+}
+
+.base {
+    background-color: rgb(16, 20, 20);
+    height: 100%;
+    padding: 50px;
+    font-size: 30px;
+    
+    
+}
+
+.nombre {
+    background-color: rgb(16, 20, 20);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    height: 40px;
+    color: aliceblue;
+    
+}
+
+
+
+input {
+    padding: 10px;
+    border-radius: 50px;
+    border: solid 3px;
+    background-color: transparent;
+    font-size: 18px;
+    display: flex;
+    margin-left: 700px;
+    width: 500px;
+    background-color: rgb(16, 20, 20);
+    color: aliceblue;
+    
+}
+
+input:hover{
+    background-color: rgb(16, 20, 20);
+    border-color: #1c8bcc;
+    
+}
+
+input:hover::placeholder{
+    color: yellow;
+}
+
+input::placeholder {
+    color: white;
+    
+}
+
+.apellido {
+    background-color: rgb(16, 20, 20);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    height: 40px;
+    color: aliceblue;
+}
+
+.contra {
+    background-color: rgb(16, 20, 20);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    height: 40px;
+    color: aliceblue;
+}
+
+.corre {
+    background-color: rgb(16, 20, 20);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    height: 40px;
+    color: aliceblue;
+}
+
+.boton  {
+    background-color: rgb(16, 20, 20);
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: solid 3px;
+    
+    
+}
+
+button:hover {
+    background-color: rgb(16, 20, 20);
+    border-color: #1c8bcc;
+    color: aliceblue;
+}
+
+.fin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(16, 20, 20);
+    color: #1c8bcc;;
+    height: 100px;
+}
+
+li {
+    padding-top: 8px;
+}

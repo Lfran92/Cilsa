@@ -10,22 +10,24 @@
     
     <header class="cabecera">
         <h1>Formulario de inscripcion</h1>
+        <button class="cambio" id="contraste">Alto Contraste</button>
+        
     </header>
     <div class="formulario">
         <h2>Login</h2>
 
-        <form action="registro" method="post" class="base" id="validarFormulario">
+        <form action="registro" method="post" class="base" id="formulario">
             <div class="nombre">
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" placeholder="introduce tu nombre" id="nombre">
             </div>
             <div class="apellido">
                 <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" placeholder="introduce tu apellido" id="apellido"><br>
+                <input type="text" name="apellido" placeholder="introduce tu apellido" id="apellido" ><br>
             </div>
             <div class="contra">
                 <label for="contraseña">Contraseña</label>
-                <input type="password" name="contraseña" placeholder="introduce una contraseña" id="contraseña"><br>
+                <input type="password" name="contraseña" placeholder="introduce una contraseña" id="contraseña" ><br>
             </div>
             <div class="corre">
                 <label for="correo">Correo</label>
@@ -34,7 +36,7 @@
             
             <br>
             <div class="boton">
-                <button type="button" id="btn">Registrarse</button>
+                <button type="submit" >Registrarse</button>
             </div>
         </form>
     </div>
@@ -50,6 +52,6 @@
     </footer>
 
 
-    <script src="javascript.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

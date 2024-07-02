@@ -3,12 +3,34 @@
     padding: 0;
 }
 
+/*Alto contraste*/
+
+.white{
+    background-color: white;
+    .cabecera, .formulario, h2, .base, .nombre, input, .apellido, .contra, .corre, .fin, .boton{
+        background-color: rgb(71, 126, 126);
+        color: rgb(250, 250, 244);
+        
+    }
+}
+
+/*Estilo de formulario*/
 .cabecera {
     background-color: rgb(16, 20, 20);
     text-align: center;
     padding: 2% 0 2% 0;
     color: aliceblue;
     text-transform: uppercase;
+}
+
+.cambio {
+    display: flex;
+    flex-direction: row;
+    float: inline-end;
+    width: 300px;
+    align-items: center;
+    padding: 0 0px 0 70px;
+    margin-right: 20px;
 }
 
 .formulario {
@@ -122,6 +144,7 @@ button {
     text-transform: uppercase;
     font-size: 16px;
     border: solid 3px;
+    cursor: pointer;
     
     
 }
@@ -145,3 +168,14 @@ button:hover {
 li {
     padding-top: 8px;
 }
+
+
+#contraste body{
+    background-color: aliceblue;
+    
+}
+
+#contraste h1 {
+    color: black;
+}
+

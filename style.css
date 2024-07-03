@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh; /* 100% de la altura de la ventana */
+    height: 100vh; 
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #4e54c8, #8f94fb);
@@ -61,23 +61,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 40px); /* Altura del contenedor menos el pie de página */
+    height: calc(100vh - 40px); 
     width: 100%;
 }
 
 .formulario {
-    background-color: #ffffff; /* Fondo blanco */
+    background-color: #ffffff; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
     max-width: 400px;
     width: 100%;
     margin-bottom: 20px
 }
 
 .formulario:hover {
-    transform: translateY(-10px); /* Levanta la tarjeta al pasar el ratón */
+    transform: translateY(-10px); 
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 16px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -86,14 +86,14 @@ body {
     flex-direction: column;
 }
 
-/* Estilos para los labels */
+
 .formulario label {
     margin-top: 10px;
     font-weight: bold;
 }
 
 
-/* Estilos para los inputs */
+
 .formulario input {
     margin-top: 5px;
     padding: 10px;
@@ -126,12 +126,12 @@ h2 {
     color: white;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .boton button:hover {
     background-color: #0056b3;
-    transform: scale(1.05); /* Agranda ligeramente el botón al pasar el ratón */
+    transform: scale(1.05); 
 }
 
 .fin{
@@ -149,7 +149,7 @@ footer {
     height: 5%;
     text-align: center;
     
-    position: fixed; /* Fijar el pie de página al fondo */
+    position: fixed; 
     bottom: 0;
 }
 

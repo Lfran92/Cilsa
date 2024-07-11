@@ -42,4 +42,12 @@ formulario.addEventListener("submit", e => {
         alert("Email no valido");
         return false;
     }
-})
+
+});
+
+if(formulario == true){
+    alert(" Tus datos han sido cargados ");
+};
+    
+
+

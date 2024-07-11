@@ -1,18 +1,6 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh; 
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #4e54c8, #8f94fb);
-}
-
-/*Alto contraste*/
-
 .white{
     background: linear-gradient(to right, #333336, #171718);
-    color: #171718;
+    color: #f2f2f7;
 }
 
 .white .cabecera {
@@ -25,15 +13,6 @@ body {
 
 .white footer{
     background: linear-gradient(to right, #333336, #171718);
-}
-/*Estilo de formulario*/
-.cabecera {
-    background: linear-gradient(to right, #4e54c8, #8f94fb);
-    text-align: center;
-    padding: 4% 0 2% 0;
-    color: aliceblue;
-    text-transform: uppercase;
-    height: 100px;
 }
 
 .cambio {
@@ -55,123 +34,3 @@ body {
     background-color: #0056b3;
     transform: scale(1.05);
 }
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 40px); 
-    width: 100%;
-}
-
-.formulario {
-    background-color: #ffffff; 
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    max-width: 400px;
-    width: 100%;
-    margin-bottom: 20px
-}
-
-.formulario:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 16px 30px rgba(0, 0, 0, 0.2);
-}
-
-.formulario form {
-    display: flex;
-    flex-direction: column;
-}
-
-
-.formulario label {
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-
-
-.formulario input {
-    margin-top: 5px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-h2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: aliceblue;
-    text-transform: uppercase;
-    
-}
-
-.boton {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.boton button {
-    padding: 10px 20px;
-    width: 200px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.boton button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05); 
-}
-
-.fin{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-footer {
-    background: linear-gradient(to right, #4e54c8, #8f94fb);
-    color: white;
-    padding: 10px 0;
-    width: 100%;
-    height: 5%;
-    text-align: center;
-    
-    position: fixed; 
-    bottom: 0;
-}
-
-footer .fin ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-footer .fin ul li {
-    margin:25px 10px;
-}
-
-
-#contraste body{
-    background-color: aliceblue;
-    
-}
-
-#contraste h1 {
-    color: black;
-}
-
